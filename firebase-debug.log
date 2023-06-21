@@ -1,0 +1,302 @@
+[debug] [2023-06-21T15:33:53.709Z] ----------------------------------------------------------------------
+[debug] [2023-06-21T15:33:53.716Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-06-21T15:33:53.717Z] CLI Version:   12.4.0
+[debug] [2023-06-21T15:33:53.718Z] Platform:      win32
+[debug] [2023-06-21T15:33:53.719Z] Node Version:  v18.0.0
+[debug] [2023-06-21T15:33:53.738Z] Time:          Wed Jun 21 2023 21:03:53 GMT+0530 (India Standard Time)
+[debug] [2023-06-21T15:33:53.738Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-21T15:33:54.356Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-21T15:33:54.358Z] > authorizing via signed-in user (mirzarahemeen@gmail.com)
+[debug] [2023-06-21T15:33:56.265Z] java version "18.0.1.1" 2022-04-22
+
+[debug] [2023-06-21T15:33:56.267Z] Java(TM) SE Runtime Environment (build 18.0.1.1+2-6)
+Java HotSpot(TM) 64-Bit Server VM (build 18.0.1.1+2-6, mixed mode, sharing)
+
+[debug] [2023-06-21T15:33:56.306Z] Parsed Java major version: 18
+[info] i  emulators: Starting emulators: functions, database, hosting, storage, extensions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, database, hosting, storage, extensions"}}
+[debug] [2023-06-21T15:33:56.316Z] > refreshing access token with scopes: []
+[debug] [2023-06-21T15:33:56.324Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-06-21T15:33:56.325Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-06-21T15:33:56.745Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-06-21T15:33:56.746Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-06-21T15:33:56.790Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/crop-monitoring-f32ad [none]
+[debug] [2023-06-21T15:33:57.624Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/crop-monitoring-f32ad 200
+[debug] [2023-06-21T15:33:57.626Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/crop-monitoring-f32ad {"projectId":"crop-monitoring-f32ad","projectNumber":"162665603391","displayName":"Crop-Monitoring","name":"projects/crop-monitoring-f32ad","resources":{"hostingSite":"crop-monitoring-f32ad","realtimeDatabaseInstance":"crop-monitoring-f32ad-default-rtdb","storageBucket":"crop-monitoring-f32ad.appspot.com","locationId":"asia-northeast3"},"state":"ACTIVE","etag":"1_98a577b8-7861-4f41-9e87-47b3e0f1a475"}
+[debug] [2023-06-21T15:33:57.699Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-21T15:33:57.700Z] [database] Database Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-21T15:33:57.700Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-21T15:33:57.700Z] [storage] Storage Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-21T15:33:57.701Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"database":[{"address":"127.0.0.1","family":"IPv4","port":9000}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-06-21T15:33:58.033Z] [hub] writing locator at C:\Users\HP\AppData\Local\Temp\hub-crop-monitoring-f32ad.json
+[debug] [2023-06-21T15:33:58.101Z] [Extensions] Started Extensions emulator, this is a noop.
+[debug] [2023-06-21T15:33:58.115Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-21T15:33:58.116Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-21T15:33:58.116Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"database":[{"address":"127.0.0.1","family":"IPv4","port":9000}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, pubsub {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, pubsub\u001b[22m"}}
+[debug] [2023-06-21T15:33:58.191Z] defaultcredentials: writing to file C:\Users\HP\AppData\Roaming\firebase\mirzarahemeen_gmail_com_application_default_credentials.json
+[debug] [2023-06-21T15:33:58.238Z] Setting GAC to C:\Users\HP\AppData\Roaming\firebase\mirzarahemeen_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\HP\\AppData\\Roaming\\firebase\\mirzarahemeen_gmail_com_application_default_credentials.json"}}
+[debug] [2023-06-21T15:33:58.241Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/crop-monitoring-f32ad/adminSdkConfig [none]
+[debug] [2023-06-21T15:33:58.827Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/crop-monitoring-f32ad/adminSdkConfig 200
+[debug] [2023-06-21T15:33:58.828Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/crop-monitoring-f32ad/adminSdkConfig {"projectId":"crop-monitoring-f32ad","databaseURL":"https://crop-monitoring-f32ad-default-rtdb.firebaseio.com","storageBucket":"crop-monitoring-f32ad.appspot.com","locationId":"asia-northeast3"}
+[debug] [2023-06-21T15:33:58.924Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/crop-monitoring-f32ad [none]
+[debug] [2023-06-21T15:33:59.854Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/crop-monitoring-f32ad 200
+[debug] [2023-06-21T15:33:59.855Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/crop-monitoring-f32ad {"projectId":"crop-monitoring-f32ad","projectNumber":"162665603391","displayName":"Crop-Monitoring","name":"projects/crop-monitoring-f32ad","resources":{"hostingSite":"crop-monitoring-f32ad","realtimeDatabaseInstance":"crop-monitoring-f32ad-default-rtdb","storageBucket":"crop-monitoring-f32ad.appspot.com","locationId":"asia-northeast3"},"state":"ACTIVE","etag":"1_98a577b8-7861-4f41-9e87-47b3e0f1a475"}
+[debug] [2023-06-21T15:33:59.856Z] database rules config:  [{"instance":"crop-monitoring-f32ad-default-rtdb","rules":"C:\\Users\\HP\\Desktop\\Real-time Asset Mapping\\database.rules.json"}]
+[info] i  database: downloading firebase-database-emulator-v4.11.2.jar... {"metadata":{"emulator":{"name":"database"},"message":"downloading firebase-database-emulator-v4.11.2.jar..."}}
+[debug] [2023-06-21T15:33:59.914Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/firebase-database-emulator-v4.11.2.jar 
+[debug] [2023-06-21T15:34:00.811Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/firebase-database-emulator-v4.11.2.jar 200
+[debug] [2023-06-21T15:34:00.814Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/firebase-database-emulator-v4.11.2.jar [stream]
+[debug] [2023-06-21T15:34:16.664Z] Ignoring unsupported arg: projectId {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: projectId"}}
+[debug] [2023-06-21T15:34:16.664Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-06-21T15:34:16.664Z] Ignoring unsupported arg: rules {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: rules"}}
+[debug] [2023-06-21T15:34:16.665Z] Starting Database Emulator with command {"binary":"java","args":["-Duser.language=en","-jar","C:\\Users\\HP\\.cache\\firebase\\emulators\\firebase-database-emulator-v4.11.2.jar","--host","127.0.0.1","--port",9000,"--single_project_mode","Warning","--functions_emulator_host","127.0.0.1","--functions_emulator_port",5001],"optionalArgs":["port","host","functions_emulator_port","functions_emulator_host","single_project_mode"],"joinArgs":false} {"metadata":{"emulator":{"name":"database"},"message":"Starting Database Emulator with command {\"binary\":\"java\",\"args\":[\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\HP\\\\.cache\\\\firebase\\\\emulators\\\\firebase-database-emulator-v4.11.2.jar\",\"--host\",\"127.0.0.1\",\"--port\",9000,\"--single_project_mode\",\"Warning\",\"--functions_emulator_host\",\"127.0.0.1\",\"--functions_emulator_port\",5001],\"optionalArgs\":[\"port\",\"host\",\"functions_emulator_port\",\"functions_emulator_host\",\"single_project_mode\"],\"joinArgs\":false}"}}
+[info] i  database: Database Emulator logging to database-debug.log {"metadata":{"emulator":{"name":"database"},"message":"Database Emulator logging to \u001b[1mdatabase-debug.log\u001b[22m"}}
+[info] i  storage: downloading cloud-storage-rules-runtime-v1.1.3.jar... {"metadata":{"emulator":{"name":"storage"},"message":"downloading cloud-storage-rules-runtime-v1.1.3.jar..."}}
+[debug] [2023-06-21T15:34:22.564Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/cloud-storage-rules-runtime-v1.1.3.jar 
+[debug] [2023-06-21T15:34:23.150Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/cloud-storage-rules-runtime-v1.1.3.jar 200
+[debug] [2023-06-21T15:34:23.151Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/cloud-storage-rules-runtime-v1.1.3.jar [stream]
+[debug] [2023-06-21T15:35:00.180Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"storage"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-06-21T15:35:03.678Z] Temp file directory for storage emulator: C:\Users\HP\AppData\Local\Temp/firebase/storage/blobs {"metadata":{"emulator":{"name":"storage"},"message":"Temp file directory for storage emulator: C:\\Users\\HP\\AppData\\Local\\Temp/firebase/storage/blobs"}}
+[debug] [2023-06-21T15:35:03.860Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/crop-monitoring-f32ad/sites 
+[debug] [2023-06-21T15:35:05.457Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/crop-monitoring-f32ad/sites 200
+[debug] [2023-06-21T15:35:05.458Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/crop-monitoring-f32ad/sites {"sites":[{"name":"projects/crop-monitoring-f32ad/sites/crop-monitoring-f32ad","defaultUrl":"https://crop-monitoring-f32ad.web.app","appId":"1:162665603391:web:1698939111f3a3795af38a","type":"DEFAULT_SITE"}]}
+[debug] [2023-06-21T15:35:05.459Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/crop-monitoring-f32ad/webApps/1:162665603391:web:1698939111f3a3795af38a/config [none]
+[debug] [2023-06-21T15:35:07.052Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/crop-monitoring-f32ad/webApps/1:162665603391:web:1698939111f3a3795af38a/config 200
+[debug] [2023-06-21T15:35:07.053Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/crop-monitoring-f32ad/webApps/1:162665603391:web:1698939111f3a3795af38a/config {"projectId":"crop-monitoring-f32ad","appId":"1:162665603391:web:1698939111f3a3795af38a","databaseURL":"https://crop-monitoring-f32ad-default-rtdb.firebaseio.com","storageBucket":"crop-monitoring-f32ad.appspot.com","locationId":"asia-northeast3","apiKey":"AIzaSyBlkMnxDx0lOtsW3nLCvvYsLkAdjlWlrjU","authDomain":"crop-monitoring-f32ad.firebaseapp.com","messagingSenderId":"162665603391","measurementId":"G-W7DHTVZXEG"}
+[debug] [2023-06-21T15:35:07.080Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/crop-monitoring-f32ad [none]
+[debug] [2023-06-21T15:35:07.668Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/crop-monitoring-f32ad 200
+[debug] [2023-06-21T15:35:07.669Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/crop-monitoring-f32ad {"projectId":"crop-monitoring-f32ad","projectNumber":"162665603391","displayName":"Crop-Monitoring","name":"projects/crop-monitoring-f32ad","resources":{"hostingSite":"crop-monitoring-f32ad","realtimeDatabaseInstance":"crop-monitoring-f32ad-default-rtdb","storageBucket":"crop-monitoring-f32ad.appspot.com","locationId":"asia-northeast3"},"state":"ACTIVE","etag":"1_98a577b8-7861-4f41-9e87-47b3e0f1a475"}
+[info] i  hosting[crop-monitoring-f32ad]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[crop-monitoring-f32ad]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[info] i  ui: downloading ui-v1.11.6.zip... {"metadata":{"emulator":{"name":"ui"},"message":"downloading ui-v1.11.6.zip..."}}
+[debug] [2023-06-21T15:35:08.169Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.11.6.zip 
+[debug] [2023-06-21T15:35:08.688Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.11.6.zip 200
+[debug] [2023-06-21T15:35:08.688Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.11.6.zip [stream]
+[debug] [2023-06-21T15:35:10.513Z] Data is 3063444
+[debug] [2023-06-21T15:35:10.514Z] [unzip] Entry: client/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2023-06-21T15:35:10.514Z] [unzip] Processing entry: client\
+[debug] [2023-06-21T15:35:10.515Z] [unzip] mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\
+[debug] [2023-06-21T15:35:10.518Z] [unzip] Entry: client/favicon.ico (compressed_size=2497 bytes, uncompressed_size=7406 bytes)
+[debug] [2023-06-21T15:35:10.519Z] [unzip] Processing entry: client\favicon.ico
+[debug] [2023-06-21T15:35:10.519Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client
+[debug] [2023-06-21T15:35:10.521Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\favicon.ico
+[debug] [2023-06-21T15:35:10.559Z] [unzip] Entry: client/apple-touch-icon.png (compressed_size=7231 bytes, uncompressed_size=7367 bytes)
+[debug] [2023-06-21T15:35:10.559Z] [unzip] Processing entry: client\apple-touch-icon.png
+[debug] [2023-06-21T15:35:10.560Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client
+[debug] [2023-06-21T15:35:10.561Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\apple-touch-icon.png
+[debug] [2023-06-21T15:35:10.566Z] [unzip] Entry: client/android-chrome-512x512.png (compressed_size=16987 bytes, uncompressed_size=18186 bytes)
+[debug] [2023-06-21T15:35:10.567Z] [unzip] Processing entry: client\android-chrome-512x512.png
+[debug] [2023-06-21T15:35:10.567Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client
+[debug] [2023-06-21T15:35:10.568Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\android-chrome-512x512.png
+[debug] [2023-06-21T15:35:10.573Z] [unzip] Entry: client/assets/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2023-06-21T15:35:10.574Z] [unzip] Processing entry: client\assets\
+[debug] [2023-06-21T15:35:10.574Z] [unzip] mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\
+[debug] [2023-06-21T15:35:10.578Z] [unzip] Entry: client/assets/extensions/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2023-06-21T15:35:10.578Z] [unzip] Processing entry: client\assets\extensions\
+[debug] [2023-06-21T15:35:10.579Z] [unzip] mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\extensions\
+[debug] [2023-06-21T15:35:10.580Z] [unzip] Entry: client/assets/extensions/default-extension.png (compressed_size=1646 bytes, uncompressed_size=1657 bytes)
+[debug] [2023-06-21T15:35:10.580Z] [unzip] Processing entry: client\assets\extensions\default-extension.png
+[debug] [2023-06-21T15:35:10.581Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\extensions
+[debug] [2023-06-21T15:35:10.581Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\extensions\default-extension.png
+[debug] [2023-06-21T15:35:10.586Z] [unzip] Entry: client/assets/index.85584c3f.js (compressed_size=526096 bytes, uncompressed_size=1859818 bytes)
+[debug] [2023-06-21T15:35:10.587Z] [unzip] Processing entry: client\assets\index.85584c3f.js
+[debug] [2023-06-21T15:35:10.587Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets
+[debug] [2023-06-21T15:35:10.588Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\index.85584c3f.js
+[debug] [2023-06-21T15:35:10.618Z] [unzip] Entry: client/assets/provider-icons/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2023-06-21T15:35:10.619Z] [unzip] Processing entry: client\assets\provider-icons\
+[debug] [2023-06-21T15:35:10.619Z] [unzip] mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons\
+[debug] [2023-06-21T15:35:10.620Z] [unzip] Entry: client/assets/provider-icons/auth_service_oidc.svg (compressed_size=414 bytes, uncompressed_size=858 bytes)
+[debug] [2023-06-21T15:35:10.621Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_oidc.svg
+[debug] [2023-06-21T15:35:10.621Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons
+[debug] [2023-06-21T15:35:10.623Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons\auth_service_oidc.svg
+[debug] [2023-06-21T15:35:10.630Z] [unzip] Entry: client/assets/provider-icons/auth_service_yahoo.svg (compressed_size=577 bytes, uncompressed_size=1182 bytes)
+[debug] [2023-06-21T15:35:10.631Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_yahoo.svg
+[debug] [2023-06-21T15:35:10.631Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons
+[debug] [2023-06-21T15:35:10.632Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons\auth_service_yahoo.svg
+[debug] [2023-06-21T15:35:10.637Z] [unzip] Entry: client/assets/provider-icons/auth_service_phone.svg (compressed_size=261 bytes, uncompressed_size=414 bytes)
+[debug] [2023-06-21T15:35:10.638Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_phone.svg
+[debug] [2023-06-21T15:35:10.638Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons
+[debug] [2023-06-21T15:35:10.639Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons\auth_service_phone.svg
+[debug] [2023-06-21T15:35:10.644Z] [unzip] Entry: client/assets/provider-icons/auth_service_saml.svg (compressed_size=575 bytes, uncompressed_size=1226 bytes)
+[debug] [2023-06-21T15:35:10.645Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_saml.svg
+[debug] [2023-06-21T15:35:10.645Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons
+[debug] [2023-06-21T15:35:10.647Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons\auth_service_saml.svg
+[debug] [2023-06-21T15:35:10.658Z] [unzip] Entry: client/assets/provider-icons/auth_service_mslive.svg (compressed_size=203 bytes, uncompressed_size=378 bytes)
+[debug] [2023-06-21T15:35:10.660Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_mslive.svg
+[debug] [2023-06-21T15:35:10.661Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons
+[debug] [2023-06-21T15:35:10.662Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons\auth_service_mslive.svg
+[debug] [2023-06-21T15:35:10.671Z] [unzip] Entry: client/assets/provider-icons/auth_service_facebook.svg (compressed_size=289 bytes, uncompressed_size=457 bytes)
+[debug] [2023-06-21T15:35:10.672Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_facebook.svg
+[debug] [2023-06-21T15:35:10.672Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons
+[debug] [2023-06-21T15:35:10.677Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons\auth_service_facebook.svg
+[debug] [2023-06-21T15:35:10.683Z] [unzip] Entry: client/assets/provider-icons/auth_service_play_games.svg (compressed_size=565 bytes, uncompressed_size=1173 bytes)
+[debug] [2023-06-21T15:35:10.683Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_play_games.svg
+[debug] [2023-06-21T15:35:10.684Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons
+[debug] [2023-06-21T15:35:10.685Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons\auth_service_play_games.svg
+[debug] [2023-06-21T15:35:10.691Z] [unzip] Entry: client/assets/provider-icons/auth_service_github.svg (compressed_size=466 bytes, uncompressed_size=838 bytes)
+[debug] [2023-06-21T15:35:10.692Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_github.svg
+[debug] [2023-06-21T15:35:10.692Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons
+[debug] [2023-06-21T15:35:10.693Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons\auth_service_github.svg
+[debug] [2023-06-21T15:35:10.698Z] [unzip] Entry: client/assets/provider-icons/auth_service_apple.svg (compressed_size=230 bytes, uncompressed_size=334 bytes)
+[debug] [2023-06-21T15:35:10.699Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_apple.svg
+[debug] [2023-06-21T15:35:10.702Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons
+[debug] [2023-06-21T15:35:10.703Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons\auth_service_apple.svg
+[debug] [2023-06-21T15:35:10.710Z] [unzip] Entry: client/assets/provider-icons/auth_service_google.svg (compressed_size=409 bytes, uncompressed_size=720 bytes)
+[debug] [2023-06-21T15:35:10.710Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_google.svg
+[debug] [2023-06-21T15:35:10.711Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons
+[debug] [2023-06-21T15:35:10.712Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons\auth_service_google.svg
+[debug] [2023-06-21T15:35:10.717Z] [unzip] Entry: client/assets/provider-icons/auth_service_email.svg (compressed_size=228 bytes, uncompressed_size=326 bytes)
+[debug] [2023-06-21T15:35:10.717Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_email.svg
+[debug] [2023-06-21T15:35:10.718Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons
+[debug] [2023-06-21T15:35:10.719Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons\auth_service_email.svg
+[debug] [2023-06-21T15:35:10.726Z] [unzip] Entry: client/assets/provider-icons/auth_service_twitter.svg (compressed_size=444 bytes, uncompressed_size=751 bytes)
+[debug] [2023-06-21T15:35:10.727Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_twitter.svg
+[debug] [2023-06-21T15:35:10.727Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons
+[debug] [2023-06-21T15:35:10.728Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons\auth_service_twitter.svg
+[debug] [2023-06-21T15:35:10.737Z] [unzip] Entry: client/assets/provider-icons/auth_service_game_center.svg (compressed_size=991 bytes, uncompressed_size=3921 bytes)
+[debug] [2023-06-21T15:35:10.738Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_game_center.svg
+[debug] [2023-06-21T15:35:10.741Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons
+[debug] [2023-06-21T15:35:10.742Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons\auth_service_game_center.svg
+[debug] [2023-06-21T15:35:10.747Z] [unzip] Entry: client/assets/img/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2023-06-21T15:35:10.750Z] [unzip] Processing entry: client\assets\img\
+[debug] [2023-06-21T15:35:10.751Z] [unzip] mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\img\
+[debug] [2023-06-21T15:35:10.754Z] [unzip] Entry: client/assets/img/database.png (compressed_size=29449 bytes, uncompressed_size=29988 bytes)
+[debug] [2023-06-21T15:35:10.755Z] [unzip] Processing entry: client\assets\img\database.png
+[debug] [2023-06-21T15:35:10.755Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\img
+[debug] [2023-06-21T15:35:10.756Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\img\database.png
+[debug] [2023-06-21T15:35:10.760Z] [unzip] Entry: client/assets/index.b9383ce5.css (compressed_size=37605 bytes, uncompressed_size=321268 bytes)
+[debug] [2023-06-21T15:35:10.761Z] [unzip] Processing entry: client\assets\index.b9383ce5.css
+[debug] [2023-06-21T15:35:10.761Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets
+[debug] [2023-06-21T15:35:10.762Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\index.b9383ce5.css
+[debug] [2023-06-21T15:35:10.772Z] [unzip] Entry: client/assets/index.85584c3f.js.map (compressed_size=1778028 bytes, uncompressed_size=7960238 bytes)
+[debug] [2023-06-21T15:35:10.772Z] [unzip] Processing entry: client\assets\index.85584c3f.js.map
+[debug] [2023-06-21T15:35:10.773Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets
+[debug] [2023-06-21T15:35:10.774Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\assets\index.85584c3f.js.map
+[debug] [2023-06-21T15:35:10.859Z] [unzip] Entry: client/safari-pinned-tab.svg (compressed_size=838 bytes, uncompressed_size=1504 bytes)
+[debug] [2023-06-21T15:35:10.859Z] [unzip] Processing entry: client\safari-pinned-tab.svg
+[debug] [2023-06-21T15:35:10.859Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client
+[debug] [2023-06-21T15:35:10.860Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\safari-pinned-tab.svg
+[debug] [2023-06-21T15:35:10.864Z] [unzip] Entry: client/mstile-150x150.png (compressed_size=5406 bytes, uncompressed_size=5723 bytes)
+[debug] [2023-06-21T15:35:10.865Z] [unzip] Processing entry: client\mstile-150x150.png
+[debug] [2023-06-21T15:35:10.865Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client
+[debug] [2023-06-21T15:35:10.866Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\mstile-150x150.png
+[debug] [2023-06-21T15:35:10.871Z] [unzip] Entry: client/browserconfig.xml (compressed_size=491 bytes, uncompressed_size=822 bytes)
+[debug] [2023-06-21T15:35:10.872Z] [unzip] Processing entry: client\browserconfig.xml
+[debug] [2023-06-21T15:35:10.872Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client
+[debug] [2023-06-21T15:35:10.873Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\browserconfig.xml
+[debug] [2023-06-21T15:35:10.879Z] [unzip] Entry: client/robots.txt (compressed_size=26 bytes, uncompressed_size=26 bytes)
+[debug] [2023-06-21T15:35:10.880Z] [unzip] Processing entry: client\robots.txt
+[debug] [2023-06-21T15:35:10.880Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client
+[debug] [2023-06-21T15:35:10.882Z] [unzip] Writing file: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\robots.txt
+[debug] [2023-06-21T15:35:10.891Z] [unzip] Entry: client/index.html (compressed_size=1363 bytes, uncompressed_size=3064 bytes)
+[debug] [2023-06-21T15:35:10.892Z] [unzip] Processing entry: client\index.html
+[debug] [2023-06-21T15:35:10.892Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client
+[debug] [2023-06-21T15:35:10.893Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\index.html
+[debug] [2023-06-21T15:35:10.897Z] [unzip] Entry: client/favicon-16x16.png (compressed_size=757 bytes, uncompressed_size=777 bytes)
+[debug] [2023-06-21T15:35:10.899Z] [unzip] Processing entry: client\favicon-16x16.png
+[debug] [2023-06-21T15:35:10.899Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client
+[debug] [2023-06-21T15:35:10.900Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\favicon-16x16.png
+[debug] [2023-06-21T15:35:10.905Z] [unzip] Entry: client/manifest.json (compressed_size=246 bytes, uncompressed_size=551 bytes)
+[debug] [2023-06-21T15:35:10.905Z] [unzip] Processing entry: client\manifest.json
+[debug] [2023-06-21T15:35:10.905Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client
+[debug] [2023-06-21T15:35:10.906Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\manifest.json
+[debug] [2023-06-21T15:35:10.913Z] [unzip] Entry: client/favicon-32x32.png (compressed_size=1175 bytes, uncompressed_size=1175 bytes)
+[debug] [2023-06-21T15:35:10.914Z] [unzip] Processing entry: client\favicon-32x32.png
+[debug] [2023-06-21T15:35:10.914Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client
+[debug] [2023-06-21T15:35:10.918Z] [unzip] Writing file: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\favicon-32x32.png
+[debug] [2023-06-21T15:35:10.922Z] [unzip] Entry: client/android-chrome-192x192.png (compressed_size=7602 bytes, uncompressed_size=7834 bytes)
+[debug] [2023-06-21T15:35:10.922Z] [unzip] Processing entry: client\android-chrome-192x192.png
+[debug] [2023-06-21T15:35:10.922Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client
+[debug] [2023-06-21T15:35:10.923Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\client\android-chrome-192x192.png
+[debug] [2023-06-21T15:35:10.928Z] [unzip] Entry: server/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2023-06-21T15:35:10.929Z] [unzip] Processing entry: server\
+[debug] [2023-06-21T15:35:10.929Z] [unzip] mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\server\
+[debug] [2023-06-21T15:35:10.934Z] [unzip] Entry: server/server.js (compressed_size=343746 bytes, uncompressed_size=1346374 bytes)
+[debug] [2023-06-21T15:35:10.935Z] [unzip] Processing entry: server\server.js
+[debug] [2023-06-21T15:35:10.935Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\server
+[debug] [2023-06-21T15:35:10.936Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\server\server.js
+[debug] [2023-06-21T15:35:10.969Z] [unzip] Entry: server/server.js.map (compressed_size=289157 bytes, uncompressed_size=1325651 bytes)
+[debug] [2023-06-21T15:35:10.970Z] [unzip] Processing entry: server\server.js.map
+[debug] [2023-06-21T15:35:10.971Z] [unzip] else mkdir: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\server
+[debug] [2023-06-21T15:35:10.979Z] [unzip] deflating: C:\Users\HP\.cache\firebase\emulators\ui-v1.11.6\server\server.js.map
+[debug] [2023-06-21T15:35:11.027Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-06-21T15:35:11.028Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-06-21T15:35:11.028Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\HP\\.cache\\firebase\\emulators\\ui-v1.11.6\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\HP\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.6\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-06-21T15:35:12.328Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2023-06-21T15:35:12.330Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[debug] [2023-06-21T15:35:12.411Z] [Extensions] Connecting Extensions emulator, this is a noop.
+[info] i  functions: Watching "C:\Users\HP\Desktop\Real-time Asset Mapping\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\HP\\Desktop\\Real-time Asset Mapping\\functions\" for Cloud Functions..."}}
+[debug] [2023-06-21T15:35:12.429Z] Validating nodejs source
+[debug] [2023-06-21T15:35:17.619Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-21T15:35:17.620Z] Building nodejs source
+[debug] [2023-06-21T15:35:17.621Z] Failed to find version of module node: reached end of search path C:\Users\HP\Desktop\Real-time Asset Mapping\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-21T15:35:17.631Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-21T15:35:17.680Z] Found firebase-functions binary at 'C:\Users\HP\Desktop\Real-time Asset Mapping\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-21T15:35:23.316Z] Serving at port 8443
+
+[debug] [2023-06-21T15:35:30.848Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification"}}
+[debug] [2023-06-21T15:35:30.895Z] >>> [apiv2][query] PUT http://127.0.0.1:9000/.settings/rules.json ns=crop-monitoring-f32ad-default-rtdb
+[debug] [2023-06-21T15:35:30.895Z] >>> [apiv2][body] PUT http://127.0.0.1:9000/.settings/rules.json "{\n  \"rules\": {\n    \".read\": true,\n    \".write\": true\n  }\n}\n"
+[debug] [2023-06-21T15:35:32.432Z] <<< [apiv2][status] PUT http://127.0.0.1:9000/.settings/rules.json 200
+[debug] [2023-06-21T15:35:32.433Z] <<< [apiv2][body] PUT http://127.0.0.1:9000/.settings/rules.json {"status":"ok"}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────┬────────────────┬──────────────────────────────────┐
+│ Emulator   │ Host:Port      │ View in Emulator UI              │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Functions  │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions  │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Database   │ 127.0.0.1:9000 │ http://127.0.0.1:4000/database   │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Hosting    │ 127.0.0.1:5000 │ n/a                              │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Storage    │ 127.0.0.1:9199 │ http://127.0.0.1:4000/storage    │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Extensions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/extensions │
+└────────────┴────────────────┴──────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+┌─────────────────────────┬───────────────┬─────────────────────┐
+│ Extension Instance Name │ Extension Ref │ View in Emulator UI │
+└─────────────────────────┴───────────────┴─────────────────────┘
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2023-06-21T15:44:28.454Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/crop-monitoring-f32ad/adminSdkConfig [none]
+[debug] [2023-06-21T15:44:29.306Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/crop-monitoring-f32ad/adminSdkConfig 200
+[debug] [2023-06-21T15:44:29.308Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/crop-monitoring-f32ad/adminSdkConfig {"projectId":"crop-monitoring-f32ad","databaseURL":"https://crop-monitoring-f32ad-default-rtdb.firebaseio.com","storageBucket":"crop-monitoring-f32ad.appspot.com","locationId":"asia-northeast3"}
