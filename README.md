@@ -1,16 +1,15 @@
-### Hi there 👋
+Hi there 👋
+Welcome!
 
-<!--
-**Rmirza97/Rmirza97** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm Rahemeen Mirza aka Rimmi🥰
+Currently learning Android
+Open to collaborating on interesting and innovative projects.
 
-Here are some ideas to get you started:
+Languages
+Python JavaScript Java C++ C SQL
 
-- 🔭 I’m currently working on Web app
-- 🌱 I’m currently learning Android
-- 👯 I’m looking to collaborate on Android and Web
-- 🤔 I’m looking for help with Android
-- 💬 Ask me about Anything in Web development
-- 📫 How to reach me: mirzarahemeen@gmail.com
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+ML
+Pandas NumPy Scikit-Learn SciPy Matplotlib
+
+Technologies & Frameworks
+React HTML5 CSS3
