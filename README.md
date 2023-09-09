@@ -6,7 +6,7 @@ Currently learning Android
 Open to collaborating on interesting and innovative projects.
 
 Languages:-
-Python JavaScript Java C++ C SQL
+Python JavaScript Java C++ C
 
 Technologies & Frameworks
 React HTML5 CSS3
