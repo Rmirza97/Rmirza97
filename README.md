@@ -2,11 +2,11 @@ Hi there 👋
 Welcome!
 
 I'm Rahemeen Mirza aka Rimmi🥰
-Currently learning Android
+Currently learning Data science with Ai 
 Open to collaborating on interesting and innovative projects.
 
 Languages:-
-Python JavaScript Java C++ C
+Python JavaScript C++ C
 
 Technologies & Frameworks
 React HTML5 CSS3
