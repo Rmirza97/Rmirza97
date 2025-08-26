@@ -16,7 +16,7 @@
 ---
 
 ## 📌 Projects
-- [Portfolio Website]([https://github.com/username/portfolio-website](https://github.com/Rmirza97/Website-pages.git))  
+- [Portfolio Website](https://github.com/Rmirza97/Website-pages.git)
 
 ---
 
